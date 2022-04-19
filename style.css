@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #151515;
+}
+/* SUSBCRIBE ===> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUSBCRIBE ===> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUSBCRIBE ===> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+
+/* I have 260+ videos on this channel and I upload videos everyday so make sure to subscribe and you won't miss them... */
+.img {
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.half {
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    overflow: hidden;
+    transition: 200ms ease-in-out transform;
+}
+.half-2 {
+    right: 0;
+}
+.half-2 img {
+    position: absolute;
+    right: 0;
+}
+.img:hover .half-1 {
+    transform: skew(20deg) translate(-20%, -5%);
+}
+.img:hover .half-2 {
+    transform: skew(20deg) translate(20%, 5%);
+}
+
+.container {
+    display: flex;
+    column-gap: 10rem;
+}
+/* SUSBCRIBE ===> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUSBCRIBE ===> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
+/* SUSBCRIBE ===> https://www.youtube.com/channel/UCzWS-AiirxpTDq_AGSg9Fhg */
